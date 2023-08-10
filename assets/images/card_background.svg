@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="332" height="210" viewBox="0 0 332 210">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.771" y1="2.356" x2="0.229" y2="-1.356" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#81fff4"/>
+      <stop offset="0.515" stop-color="#4194f4"/>
+      <stop offset="1" stop-color="#8722d6"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="vectorMask" width="332" height="210" rx="18" transform="translate(0 -0.187)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="0.958" y1="-2.035" x2="0.042" y2="3.035" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00f2fe"/>
+      <stop offset="1" stop-color="#4facfe"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="-0.91" y1="3.282" x2="1.91" y2="-2.282" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#21d4fd"/>
+      <stop offset="1" stop-color="#b721ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.337" y1="3.476" x2="0.663" y2="-2.476" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff829c"/>
+      <stop offset="1" stop-color="#ffd0a0"/>
+    </linearGradient>
+  </defs>
+  <g id="Card_2" data-name="Card 2" transform="translate(0 0.187)">
+    <rect id="Rectangle" width="332" height="210" rx="18" transform="translate(0 -0.187)" fill="url(#linear-gradient)"/>
+    <g id="Mask_by_Rectangle_Clipped" data-name="Mask_by_Rectangle Clipped">
+      <rect id="vectorMask-2" data-name="vectorMask" width="332" height="210" rx="18" transform="translate(0 -0.187)" fill="none"/>
+      <g id="Mask_by_Rectangle_Clipped-2" data-name="Mask_by_Rectangle Clipped" clip-path="url(#clip-path)">
+        <g id="Mask_by_Rectangle" transform="translate(-2.321 -22.816)">
+          <g id="Mask_by_Rectangle-2" transform="translate(0 0)">
+            <path id="Rectangle_2_Copy_2" d="M334.321,237.325c-81.1-19.466-362.647,23.851-332,0S44.743,115.117,164.863,95.712,284.052,27.419,334.321,0C426.232,21.752,334.321,237.325,334.321,237.325Z" transform="translate(0)" fill="url(#linear-gradient-2)"/>
+            <path id="Rectangle_2" d="M104.442,152.059C64.093,169.385,31.719,211.931,0,236.15H332C315.157,197.536,353.123,48.426,332,0c-34.436,17.582-6.455,105.625-121.272,134.271C172.154,143.895,144.789,134.733,104.442,152.059Z" transform="translate(2.321 1.176)" fill="url(#linear-gradient-3)"/>
+            <path id="Rectangle_2_Copy_3" d="M331.529,156.833S36.762,168.065,0,156.833c30.993.244,59.946-17.679,96.591-36.039C150.08,94,166.508,101.74,222.47,106.7,326.684,115.943,290.77,17.748,331.523,0Z" transform="translate(2.793 80.492)" fill="url(#linear-gradient-4)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

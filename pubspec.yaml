@@ -1,0 +1,40 @@
+name: bazaar
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  dotted_border: ^2.0.0+3
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.5
+  image_picker: ^1.0.2
+  shared_preferences: ^2.2.0
+  smooth_page_indicator: ^1.1.0
+  # cupertino_icons: ^1.0.2
+  # image_picker: ^0.8.5+3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/product_details.png
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Black.ttf
+        - asset: assets/fonts/Roboto-BlackItalic.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+        - asset: assets/fonts/Roboto-Medium.ttf
+  # fonts:
+  #   - family: Roboto
+  #     fonts:
+  #       - asset: assets/fonts/Roboto-Medium.ttf
