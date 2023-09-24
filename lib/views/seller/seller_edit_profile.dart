@@ -12,10 +12,6 @@ class SellerEditProfile extends StatelessWidget {
         shadowColor: Colors.transparent,
         // titleTextStyle: TextStyle(color: Colors.black),
         foregroundColor: Colors.black,
-        // leading: Text(
-        //   'تم',
-        //   // style: TextStyle(color: CustomColors.redColor),
-        // ),
         actions: [
           TextButton(
               onPressed: () {},

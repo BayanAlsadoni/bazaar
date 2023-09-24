@@ -12,12 +12,9 @@ class StoreMainPage extends StatelessWidget {
         body: Column(children: [
           Container(
             height: 240,
-            // width: double.infinity,
             child: Stack(
               children: [
-                // Image.asset('assets/images/welcome2.png'),
                 Container(
-                  // height: 100,
                   width: double.infinity,
                   child: Image.asset(
                     'assets/images/welcome_image2.png',
@@ -26,8 +23,6 @@ class StoreMainPage extends StatelessWidget {
                   ),
                 ),
                 Positioned(
-                  // width: 200,
-                  // height: 150,
                   top: 80,
                   right: 80,
                   left: 80,
@@ -76,7 +71,6 @@ class StoreMainPage extends StatelessWidget {
                 Positioned(
                     top: 50,
                     right: 150,
-                    // left: 100,
                     width: 70,
                     child: Image.asset(
                       'assets/images/popular2.png',
@@ -101,17 +95,9 @@ class StoreMainPage extends StatelessWidget {
               ]),
           Expanded(
               child: TabBarView(
-            // children: [
-            //   ElementsWidget(),
-            //   RevistionsWidget(),
-            //   RevistionsWidget()
-            // ]
             children: [
-              // Center(child: Text('Tab 1 content')),
               ElementsWidget(),
-              // Center(child: Text('Tab 2 content')),
               RevistionsWidget(),
-              // Center(child: Text('Tab 3 content')),
               BriefWidget()
             ],
           ))
@@ -142,8 +128,6 @@ class ElementsWidget extends StatelessWidget {
           SpecialProductWidget(4.9, 24, 'assets/images/jewelry3.png'),
           SpecialProductWidget(4.9, 24, 'assets/images/jewelry4.png'),
         ],
-        // physics: NeverScrollableScrollPhysics(),
-        // shrinkWrap: true,
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 2,
           mainAxisSpacing: 10,
@@ -168,21 +152,14 @@ class RevistionsWidget extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               textDirection: TextDirection.rtl,
               children: [
-                // Image.asset(''),
-                // Icon(Icons.person),
                 CircleAvatar(
                   backgroundColor: Colors.blueGrey,
                 ),
-                // SizedBox(
-                //   width: 20,
-                // ),
                 Column(
                   textDirection: TextDirection.rtl,
-                  // crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
                     Row(
                       textDirection: TextDirection.rtl,
-                      // mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text('الاسم'),
                         SizedBox(
@@ -191,7 +168,6 @@ class RevistionsWidget extends StatelessWidget {
                         Icon(
                           Icons.star,
                           color: Colors.amber,
-                          // weight: 5,
                           size: 18,
                         ),
                         Icon(
@@ -216,15 +192,6 @@ class RevistionsWidget extends StatelessWidget {
                         ),
                       ],
                     ),
-                    // Text(
-//                       '''جودة مذهلة! تبدو أفضل من الصورة!
-// جميلة جدا وناعمة والشحن كان سريع!
-//  و حصلت على منحوتة خطية جميلة''',
-                    //   'جودة مذهلة! تبدو أفضل من الصورة!جميلة جدا وناعمة والشحن كان سريع و حصلت على منحوتة خطية جميلة',
-                    //   textAlign: TextAlign.right,
-                    //   textDirection: TextDirection.rtl,
-                    //   maxLines: 5,
-                    // ),
                     SizedBox(
                       width: MediaQuery.of(context).size.width - 100,
                       child: Text(
@@ -238,7 +205,6 @@ class RevistionsWidget extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Row(
-                          // mainAxisAlignment: MainAxisAlignment.end,
                           children: [
                             Icon(Icons.date_range),
                             Text('15-AUG-2020 '),
@@ -271,13 +237,9 @@ class RevistionsWidget extends StatelessWidget {
                       textDirection: TextDirection.rtl,
                       children: [
                         Text('الاسم'),
-                        // SizedBox(
-                        //   width: 20,
-                        // ),
                         Icon(
                           Icons.star,
                           color: Colors.amber,
-                          // weight: 5,
                           size: 18,
                         ),
                         Icon(
@@ -377,7 +339,6 @@ class RevistionsWidget extends StatelessWidget {
                         ),
                       ],
                     ),
-                    // ),
                     SizedBox(
                       width: MediaQuery.of(context).size.width - 100,
                       child: Text(
@@ -428,11 +389,6 @@ class BriefWidget extends StatelessWidget {
             SizedBox(
               height: 20,
             ),
-            // Expanded(
-            //   flex: 1,
-            // child: SingleChildScrollView(
-            //   scrollDirection: Axis.vertical, //.horizontal
-            // child:
             Text(
               '''  منذ أول فستان من الكتان تم إنشاؤه في عام 2014 ، قمنا    
           بقص وخياطة جميع ملابس الكتان الخاصة بنا محليًا في ليتوانيا باستخدام الكتان
@@ -442,12 +398,9 @@ class BriefWidget extends StatelessWidget {
           سباب عديدة: الجودة وا  ستدامة وأخيراً ، من أجل منتج صديق للبيئة مصنوع بالحب المزيد''',
               style: TextStyle(
                 fontSize: 16.0,
-                // color: Colors.white,
               ),
               textAlign: TextAlign.right,
               textDirection: TextDirection.rtl,
-              // ),
-              // ),
             ),
           ],
         ),

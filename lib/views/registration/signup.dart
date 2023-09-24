@@ -106,14 +106,10 @@ class Signup extends StatelessWidget {
                   )
                 ],
               ),
-              // Divider(
-              //   height: 2,
-              //   thickness: 2,
-              // )
+
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  // IconButton(onPressed: (){}, icon:Icon( Icons.facebook))
                   Container(
                     width: 50,
                     height: 40,

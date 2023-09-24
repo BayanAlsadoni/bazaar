@@ -34,8 +34,6 @@ class _SellerHomeState extends State<SellerHome> {
           setState(() {});
         },
         children: [
-          // Padding(padding: const EdgeInsets.all(10),
-          // child: HomePage()),
           SellerMainPage(),
           SellerNotificationPage(),
         ],
@@ -46,7 +44,6 @@ class _SellerHomeState extends State<SellerHome> {
         shape: CircularNotchedRectangle(),
         notchMargin: 10,
         child: Container(
-          // padding: EdgeInsets.all(10),
           height: 60,
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -92,29 +89,6 @@ class _SellerHomeState extends State<SellerHome> {
         ),
       ),
 
-      // bottomNavigationBar: BottomNavigationBar(
-      //     unselectedItemColor: CustomColors.orange,
-      //     selectedItemColor: CustomColors.redColor,
-      //     currentIndex: index,
-      //     onTap: (value) {
-      //       index = value;
-      //       // // pageController.animateToPage(index,
-      //       // //     duration: Duration(milliseconds: 10),
-      //       // //     curve: Curves.bounceInOut);
-      //       pageController.jumpToPage(index);
-      //       setState(() {});
-      //     },
-      //     items: [
-      //       BottomNavigationBarItem(
-      //           icon: SvgPicture.asset('assets/images/shop_store.svg'),
-      //           label: "market"),
-      //       BottomNavigationBarItem(
-      //           activeIcon:
-      //               SvgPicture.asset('assets/images/selected_favorit_icon.svg'),
-      //           icon: SvgPicture.asset('assets/images/heart_icon.svg'),
-      //           label: "favorit"),
-      //     ]),
-
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           Navigator.of(context).push(MaterialPageRoute(builder: (context) {
@@ -134,7 +108,6 @@ class _SellerHomeState extends State<SellerHome> {
                 height: 20,
               ),
               CircleAvatar(
-                // child: Image.asset('assets/images/category1.svg'),
                 minRadius: 40,
               ),
               Text('مشغل إبرة'),
@@ -153,11 +126,9 @@ class _SellerHomeState extends State<SellerHome> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Column(
-                      // crossAxisAlignment: CrossA,
                       children: [
                         Text(
                           'طلبات مكتملة',
-                          // style: TextStyle(fontSize: 10),
                         ),
                         Text('1489')
                       ],
@@ -205,11 +176,7 @@ class _SellerHomeState extends State<SellerHome> {
               Directionality(
                 textDirection: TextDirection.rtl,
                 child: ListTile(
-                  onTap: () {
-                    // Navigator.of(context).push(MaterialPageRoute(builder: (context) {
-                    //   return 'screen';
-                    // }));
-                  },
+                  onTap: () {},
                   title: Text('سحب الأرباح'),
                   leading: SvgPicture.asset('assets/images/profit_icon.svg'),
                 ),
@@ -234,11 +201,7 @@ class _SellerHomeState extends State<SellerHome> {
               Directionality(
                 textDirection: TextDirection.rtl,
                 child: ListTile(
-                  onTap: () {
-                    // Navigator.of(context).push(MaterialPageRoute(builder: (context) {
-                    //   return 'screen';
-                    // }));
-                  },
+                  onTap: () {},
                   title: Text('تواصل معنا'),
                   leading: SvgPicture.asset('assets/images/concat_us_icon.svg'),
                 ),
@@ -247,11 +210,7 @@ class _SellerHomeState extends State<SellerHome> {
               Directionality(
                 textDirection: TextDirection.rtl,
                 child: ListTile(
-                  onTap: () {
-                    // Navigator.of(context).push(MaterialPageRoute(builder: (context) {
-                    //   return 'screen';
-                    // }));
-                  },
+                  onTap: () {},
                   title: Text('الاعدادات'),
                   leading: SvgPicture.asset('assets/images/setting_icon.svg'),
                 ),

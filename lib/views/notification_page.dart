@@ -79,13 +79,8 @@ class NotificationWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: EdgeInsets.all(10),
-      // margin: EdgeInsets.all(10),
-
-      // height: 140,
-      // width: 100,
       child: Row(
         textDirection: TextDirection.rtl,
-        // mainAxisAlignment: MainAxisAlignment.start,
         children: [
           Image.asset('assets/images/popular4.png', width: 70),
           Expanded(

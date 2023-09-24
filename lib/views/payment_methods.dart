@@ -91,8 +91,6 @@ class PaymentMethods extends StatelessWidget {
                     SizedBox(
                       width: 230,
                       child: TextField(
-                        // cursorColor: CustomColors.redColor,
-
                         decoration: InputDecoration(
                             hintText: '',
                             hoverColor: CustomColors.redColor,

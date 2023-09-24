@@ -48,7 +48,6 @@ class EditProfilePage extends StatelessWidget {
               CircleAvatar(
                 backgroundColor: Colors.blueGrey,
                 radius: 40,
-                // foregroundColor: Colors.grey.withOpacity(0.5),
               ),
               EditProfileTextField('الاسم', 'my name'),
               EditProfileTextField('البرد الالكتروني', 'myname@gmail.com'),
@@ -62,37 +61,6 @@ class EditProfilePage extends StatelessWidget {
     );
   }
 }
-
-// Padding(
-//           padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 5),
-//           child: Container(
-//             // height: 75,
-//             // margin: EdgeInsets.all(10),
-//             decoration: BoxDecoration(
-//               color: Color.fromARGB(129, 174, 174, 174),
-//               borderRadius: BorderRadius.circular(15),
-//             ),
-//             child: TextFormField(
-//               // cursorHeight: 5,
-//               // cursorWidth: 5,
-//               textAlign: TextAlign.right,
-//               decoration: InputDecoration(
-//                   hintText: 'name',
-//                   alignLabelWithHint: true,
-//                   // label: Text(
-//                   //   'data',
-//                   //   textAlign: TextAlign.right,
-//                   //   style: TextStyle(color: Colors.black26),
-//                   // ),
-//                   // labelStyle: TextStyle(color: Colors.black),
-//                   // labelText: 'jjjj',
-//                   //     // isCollapsed: true,
-//                   contentPadding: EdgeInsets.only(right: 15),
-//                   // hintStyle: TextStyle(height: 1),
-//                   border: InputBorder.none),
-//             ),
-//           ),
-//         )
 
 class EditProfileTextField extends StatelessWidget {
   TextEditingController txtController = TextEditingController();
@@ -114,7 +82,6 @@ class EditProfileTextField extends StatelessWidget {
           textAlign: TextAlign.right,
         ),
         Container(
-          // margin: EdgeInsets.all(10),
           decoration: BoxDecoration(
             color: Color.fromARGB(129, 174, 174, 174),
             borderRadius: BorderRadius.circular(15),
@@ -124,9 +91,7 @@ class EditProfileTextField extends StatelessWidget {
             textAlign: TextAlign.right,
             decoration: InputDecoration(
                 hintText: hint,
-                //     // isCollapsed: true,
                 contentPadding: EdgeInsets.only(right: 15),
-                // hintStyle: TextStyle(height: 1),
                 border: InputBorder.none),
           ),
         )

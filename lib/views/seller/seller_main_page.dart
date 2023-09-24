@@ -21,8 +21,6 @@ class SellerMainPage extends StatelessWidget {
           children: [
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              // textDirection: TextDirection.rtl,
-              // crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 SizedBox(
                   width: 20,
@@ -31,7 +29,6 @@ class SellerMainPage extends StatelessWidget {
                   "assets/images/Logo.png",
                   width: 100,
                   height: 100,
-                  // alignment: Alignment.center,
                 ),
                 InkWell(
                   onTap: () {
@@ -80,8 +77,6 @@ class SellerMainPage extends StatelessWidget {
                       effect: const WormEffect(
                         dotHeight: 10,
                         dotWidth: 10,
-                        // type: WormType.underground,
-                        // activeDotColor: Color.fromARGB(249, 151, 25, 29)),
                         activeDotColor: Colors.black,
                       )),
                 ),
@@ -183,9 +178,6 @@ class SellerMainPage extends StatelessWidget {
             Container(
               height: 90,
               width: 90,
-              // padding: EdgeInsets.all(0),
-              // margin: EdgeInsets.all(20),
-              // color: Colors.amber,
               child: ListView(
                 scrollDirection: Axis.horizontal,
                 reverse: true,
@@ -225,43 +217,6 @@ class SellerMainPage extends StatelessWidget {
           ],
         ),
       ),
-      // floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
-      // // bottomNavigationBar: BottomAppBar(
-      // //   shape: CircularNotchedRectangle(),
-      // //   notchMargin: 10,
-      // //   child: Container(
-      // //     height: 60,
-      // //     child: Row(
-      // //       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      // //       children: [
-      // //         Row(
-      // //           crossAxisAlignment: CrossAxisAlignment.start,
-      // //           children: [
-      // //             MaterialButton(
-      // //               onPressed: () {},
-      // //               minWidth: 40,
-      // //               child: Column(
-      // //                 mainAxisAlignment: MainAxisAlignment.center,
-      // //                 children: [
-      // //                   Icon(
-      // //                     Icons.dashboard,
-      // //                   ),
-      // //                   Text('dashboard')
-      // //                 ],
-      // //               ),
-      // //             )
-      // //           ],
-      // //         )
-      // //       ],
-      // //     ),
-      // //   ),
-      // // ),
-
-      // bottomNavigationBar: BottomNavigationBar(items: [
-
-      // ]),
-
-      // floatingActionButton: FloatingActionButton(onPressed: () {}),
     );
   }
 }

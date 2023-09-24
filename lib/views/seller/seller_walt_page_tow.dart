@@ -30,7 +30,6 @@ class SellerWaltPageTow extends StatelessWidget {
                   padding: EdgeInsets.all(35),
                   child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
-                      // mainAxisAlignment: MainAxisAlignment.end,
                       children: [
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -54,7 +53,6 @@ class SellerWaltPageTow extends StatelessWidget {
                           height: 30,
                         ),
                         Row(
-                          // mainAxisAlignment: MainAxisAlignment.spaceAround,
                           children: [
                             Text(
                               'Card Holder name',
@@ -72,7 +70,6 @@ class SellerWaltPageTow extends StatelessWidget {
                           ],
                         ),
                         Row(
-                          // mainAxisAlignment: MainAxisAlignment.spaceAround,
                           children: [
                             Text(
                               'Austin Hammond',

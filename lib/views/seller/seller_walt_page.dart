@@ -15,7 +15,6 @@ class SellerWaltPage extends StatelessWidget {
         centerTitle: true,
       ),
       body: Column(
-          // crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Stack(
               alignment: AlignmentDirectional.center,
@@ -28,7 +27,6 @@ class SellerWaltPage extends StatelessWidget {
                   padding: EdgeInsets.all(35),
                   child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
-                      // mainAxisAlignment: MainAxisAlignment.end,
                       children: [
                         Text(
                           'Finaci',
@@ -46,7 +44,6 @@ class SellerWaltPage extends StatelessWidget {
                           height: 30,
                         ),
                         Row(
-                          // mainAxisAlignment: MainAxisAlignment.spaceAround,
                           children: [
                             Text(
                               'Card Holder name',
@@ -64,7 +61,6 @@ class SellerWaltPage extends StatelessWidget {
                           ],
                         ),
                         Row(
-                          // mainAxisAlignment: MainAxisAlignment.spaceAround,
                           children: [
                             Text(
                               'Austin Hammond',
@@ -121,7 +117,6 @@ class SellerWaltPage extends StatelessWidget {
                             height: 30,
                           ),
                           Row(
-                            // mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: [
                               Text(
                                 'Card Holder name',
@@ -139,7 +134,6 @@ class SellerWaltPage extends StatelessWidget {
                             ],
                           ),
                           Row(
-                            // mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: [
                               Text(
                                 'Austin Hammond',

@@ -13,21 +13,10 @@ class ProductDetailsPage extends StatelessWidget {
           Expanded(
             child: SingleChildScrollView(
               child: Column(
-                // mainAxisAlignment: MainAxisAlignment.end,
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                   ClipRRect(
                     borderRadius: BorderRadius.only(
-                      // topRight: Radius.circular(
-                      //   -20.0,
-                      // ),
-                      // topLeft: Radius.circular(
-                      //   -20.0,
-                      // ),
-
-                      // bottomLeft: Radius.circular(
-                      //   MediaQuery.of(context).size.width + 20.0,
-                      // ),
                       bottomLeft: Radius.circular(
                         50.0,
                       ),
@@ -39,11 +28,6 @@ class ProductDetailsPage extends StatelessWidget {
                       padding: EdgeInsets.all(10),
                       decoration: BoxDecoration(
                         color: CustomColors.orange,
-                        // borderRadius: BorderRadius.only(
-                        //   bottomLeft: Radius.circular(50),
-                        //   // bottomRight: Radius.elliptical(-100, -100)
-                        //   // bottomRight: Radius.lerp(, b, t)
-                        // )
                       ),
                       child: Column(
                         children: [
@@ -78,25 +62,6 @@ class ProductDetailsPage extends StatelessWidget {
                       ),
                     ),
                   ),
-                  // Positioned(
-                  //   height: 50,
-                  //   width: MediaQuery.of(context).size.width,
-                  //   bottom: -20,
-                  //   // top: 310,
-                  //   // right: -10,
-                  //   child: Container(
-                  //     alignment: Alignment.bottomRight,
-                  //     // width: 350,
-                  //     // height: 100,
-                  //     decoration: BoxDecoration(
-                  //         color: Colors.white,
-                  //         borderRadius: BorderRadius.only(
-                  //           topRight: Radius.circular(50),
-                  //         )),
-                  //     padding: EdgeInsets.all(10),
-                  //   ),
-                  // ),
-
                   Padding(
                     padding: const EdgeInsets.only(right: 20.0, top: 10),
                     child: Text(
@@ -142,8 +107,6 @@ class ProductDetailsPage extends StatelessWidget {
                         Text('24.14\$'),
                         Container(
                           height: 40,
-                          // width: 130,
-                          // padding: EdgeInsets.all(10),
                           decoration: BoxDecoration(
                               color: CustomColors.redColor,
                               borderRadius: BorderRadius.circular(15)),
@@ -170,12 +133,9 @@ class ProductDetailsPage extends StatelessWidget {
                     padding: const EdgeInsets.symmetric(horizontal: 18.0),
                     child: Row(
                       textDirection: TextDirection.rtl,
-                      // mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text('المقاس'),
                         Container(
-                          // width: 200,
-                          // padding: EdgeInsets.all(10),
                           decoration: BoxDecoration(
                               // color: CustomColors.redColor,
                               // borderRadius: BorderRadius.circular(15)
@@ -203,10 +163,6 @@ class ProductDetailsPage extends StatelessWidget {
                                   onPressed: () {},
                                   child: Text('XL',
                                       style: TextStyle(color: Colors.black))),
-                              // TextButton(
-                              //     onPressed: () {},
-                              //     child:
-                              //         Text('2X', style: TextStyle(color: Colors.white)))
                             ],
                           ),
                         )
@@ -221,12 +177,6 @@ class ProductDetailsPage extends StatelessWidget {
                       children: [
                         Text('اللون'),
                         Container(
-                          // width: 200,
-                          // padding: EdgeInsets.all(10),
-                          decoration: BoxDecoration(
-                              // color: CustomColors.redColor,
-                              // borderRadius: BorderRadius.circular(15)
-                              ),
                           child: Row(
                             textDirection: TextDirection.rtl,
                             children: [
@@ -257,10 +207,6 @@ class ProductDetailsPage extends StatelessWidget {
                                     Icons.circle,
                                     color: Color.fromARGB(255, 240, 167, 162),
                                   )),
-                              // TextButton(
-                              //     onPressed: () {},
-                              //     child:
-                              //         Text('2X', style: TextStyle(color: Colors.white)))
                             ],
                           ),
                         )
@@ -316,9 +262,6 @@ class ProductDetailsPage extends StatelessWidget {
                       ],
                     ),
                   ),
-                  // Padding(
-                  //   padding: const EdgeInsets.all(8.0),
-                  //   child:
                   Row(
                     textDirection: TextDirection.rtl,
 
@@ -327,11 +270,8 @@ class ProductDetailsPage extends StatelessWidget {
                       SpecialProductWidget(4, 50, 'assets/images/jewelry1.png'),
                       SpecialProductWidget(4, 50, 'assets/images/jewelry1.png'),
                       SpecialProductWidget(4, 50, 'assets/images/jewelry1.png'),
-                      // SpecialProductWidget(4, 50, 'assets/images/jewelry1.png'),
-                      // SpecialProductWidget(4, 50, 'assets/images/jewelry1.png'),
-                      // SpecialProductWidget(4, 50, 'assets/images/jewelry1.png'),
                     ],
-                    // ),
+
                   ),
                 ],
               ),

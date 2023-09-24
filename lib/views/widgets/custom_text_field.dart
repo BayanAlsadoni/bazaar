@@ -8,7 +8,6 @@ class CustomTextField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        // padding: EdgeInsets.symmetric(horizontal: 15),
         margin: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(10),
@@ -23,7 +22,6 @@ class CustomTextField extends StatelessWidget {
         child: TextField(
           textAlign: TextAlign.right,
           decoration: InputDecoration(
-              // isCollapsed: true,
               contentPadding: EdgeInsets.all(10),
               hintText: text,
               hintStyle: TextStyle(height: 1),

@@ -12,7 +12,6 @@ class SellerSignUp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        // padding: const EdgeInsets.all(20),
         child: SingleChildScrollView(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,

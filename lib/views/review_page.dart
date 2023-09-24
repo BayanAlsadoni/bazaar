@@ -26,9 +26,7 @@ class ReviewPage extends StatelessWidget {
                   margin: EdgeInsets.all(10),
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
-                      // color: Colors.grey.withOpacity(0.5),
                       color: Colors.white,
-                      // color: Colors.grey.withOpacity(0.5),
                       boxShadow: [
                         BoxShadow(
                           color: Colors.grey.withOpacity(0.5),
@@ -66,9 +64,7 @@ class ReviewPage extends StatelessWidget {
                   margin: EdgeInsets.all(10),
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
-                      // color: Colors.grey.withOpacity(0.5),
                       color: Colors.white,
-                      // color: Colors.grey.withOpacity(0.5),
                       boxShadow: [
                         BoxShadow(
                           color: Colors.grey.withOpacity(0.5),
@@ -197,19 +193,12 @@ class ReviewPage extends StatelessWidget {
                       style: TextStyle(color: Colors.white),
                     ),
                     onPressed: () {
-                      // showBottomSheet(
                       showModalBottomSheet(
                         context: context,
                         builder: (context) {
                           return Container(
                             padding: EdgeInsets.only(top: 10),
                             color: Colors.white,
-                            // decoration: BoxDecoration(
-                            // borderRadius: BorderRadius.horizontal(
-                            //         left: Radius.circular(100),
-                            //         right: Radius.circular(10))),
-                            // height: 200,
-                            // height: 900,
                             child: Column(
                               children: [
                                 SvgPicture.asset(
@@ -245,87 +234,3 @@ class ReviewPage extends StatelessWidget {
         ));
   }
 }
-
-// class CustomDialog extends StatelessWidget {
-//   @override
-//   Widget build(BuildContext context) {
-//     return 
-//     showBottomSheet(
-//               context: context,
-//               builder: (context) {
-//                 // The content of the bottom sheet goes here
-//                 return Container(
-//                   color: Colors.white,
-//                   height: 200,
-//                   child: Center(
-//                     child: Text('This is a bottom sheet.'),
-//                   ))
-//   });
-// }
-    
-
-
-// class CustomDialog extends StatelessWidget {
-//   // Function to show the bottom sheet
-//   void _showBottomSheet(BuildContext context) {
-//     showModalBottomSheet(
-//       context: context,
-//       builder: (context) {
-//         return Container(
-//           color: Colors.white,
-//           height: 200,
-//           child: Center(
-//             child: Text('This is a bottom sheet.'),
-//           ),
-//         );
-//       },
-//     );
-//   }
-
-
-
-
-
-    
-//      showBottomSheet(
-//   context: context,
-//   builder: (context) => GestureDetector(
-//     child: *your_widget*,
-//     onVerticalDragStart: (_) {},
-//   ),
- 
-// );
-  // }
-  
-
-  // Dialog.fullscreen(
-
-    // child: Container(
-    //   // width: 100,
-    //   child: Column(
-    //     children: [
-    //       SvgPicture.asset('assets/images/done_review_icon.svg'),
-    //       Text(
-    //         'تم الدفع والشراء بنجاح',
-    //         style: TextStyle(fontWeight: FontWeight.bold),
-    //       ),
-    //       Text(
-    //         'يمكنك متابعة تفاصيل الطلب من قائمة طلباتي',
-    //         textAlign: TextAlign.center,
-    //       ),
-    //       CustomButton('طلباتي', Home()),
-    //       TextButton(
-    //         onPressed: () {},
-    //         child: Text(
-    //           'متابعة التسوق',
-    //           style: TextStyle(color: Colors.black),
-    //           textAlign: TextAlign.center,
-    //         ),
-    //       )
-    //     ],
-    //   ),
-    // ),
-
-    // );
-
-

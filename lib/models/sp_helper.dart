@@ -15,32 +15,6 @@ class SPHelper {
     return result;
   }
 
-  // static bool setSeller() {
-  //   sp.setBool('seller', true);
-  //   return true;
-  // }
-
-  // static bool getSeller() {
-  //   if (setSeller()) {
-  //     sp.getBool('seller');
-  //     return true;
-  //   }
-  //   return false;
-  // }
-
-  // static bool setCustomer() {
-  //   sp.setBool('seller', true);
-  //   return true;
-  // }
-
-  // static bool getCustomer() {
-  //   if (setSeller()) {
-  //     sp.getBool('seller');
-  //     return true;
-  //   }
-  //   return false;
-  // }
-
   static bool checkFirstTime() {
     bool? result = sp.getBool('FirstLogin');
     if (result == null) {

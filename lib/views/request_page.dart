@@ -1,8 +1,4 @@
-import 'package:bazaar/views/home.dart';
-import 'package:bazaar/views/store_main.dart';
-import 'package:bazaar/views/widgets/custom_button.dart';
 import 'package:flutter/material.dart';
-
 import '../colors/custom_colors.dart';
 
 class RequestPage extends StatelessWidget {
@@ -36,11 +32,6 @@ class RequestPage extends StatelessWidget {
               ]),
           Expanded(
               child: TabBarView(
-            // children: [
-            //   ElementsWidget(),
-            //   RevistionsWidget(),
-            //   RevistionsWidget()
-            // ]
             children: [
               SingleChildScrollView(
                 child: Column(
@@ -101,7 +92,6 @@ class RequestWidget extends StatelessWidget {
       // width: 100,
       child: Row(
         textDirection: TextDirection.rtl,
-        // mainAxisAlignment: MainAxisAlignment.start,
         children: [
           Image.asset('assets/images/popular4.png', width: 70),
           Expanded(
@@ -113,7 +103,6 @@ class RequestWidget extends StatelessWidget {
                   textAlign: TextAlign.right,
                 ),
                 Row(
-                  // mainAxisAlignment: MainAxisAlignment.start,
                   textDirection: TextDirection.rtl,
                   children: [
                     Icon(Icons.location_on_outlined),
@@ -149,10 +138,6 @@ class RequestWidget extends StatelessWidget {
               ],
             ),
           ),
-
-          // Container(
-
-          // )
         ],
       ),
     );

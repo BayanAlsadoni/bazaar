@@ -146,8 +146,6 @@ class BlogWidget2 extends StatelessWidget {
                   BoxDecoration(borderRadius: BorderRadius.circular(50)),
               child: Image.asset(
                 'assets/images/store2.png',
-                // width: 70,
-                // height: 80,
                 fit: BoxFit.cover,
               ),
             ),
@@ -196,50 +194,3 @@ class BlogWidget2 extends StatelessWidget {
     );
   }
 }
-
-
-//  ListTile(
-      
-//       // shape: BeveledRectangleBorder(
-//       //     borderRadius: BorderRadius.circular(10), side: BorderSide()),
-//       // style: ListTileStyle.list,
-//       trailing: Image.asset(
-//         'assets/images/$imageName',
-//         width: 80,
-//         // height: 100,
-//         fit: BoxFit.cover,
-//       ),
-//       title: Text(
-//         'نعمل على خلق فرص عمل للنساء اللاجئات ذوات الدخل المنخفض في فلسطين',
-//         textAlign: TextAlign.right,
-//       ),
-//       subtitle: Expanded(
-//         child: Row(
-//           // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-//           textDirection: TextDirection.rtl,
-//           children: [
-//             SvgPicture.asset(
-//               'assets/images/date.svg',
-//               width: 14,
-//               colorFilter: ColorFilter.mode(Colors.grey, BlendMode.srcIn),
-//             ),
-//             Text(
-//               'فبراير 26 2022',
-//             ),
-//             SizedBox(
-//               width: 10,
-//             ),
-//             SvgPicture.asset(
-//               'assets/images/chance_icon.svg',
-//               width: 14,
-//               colorFilter: ColorFilter.mode(Colors.grey, BlendMode.srcIn),
-//             ),
-//             Text(
-//               'فرص عمل',
-//             )
-//           ],
-//         ),
-//       ),
-//     );
-
-

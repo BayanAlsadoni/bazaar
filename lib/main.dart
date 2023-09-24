@@ -20,38 +20,9 @@ import 'package:bazaar/views/welcomPages/welcom.dart';
 import 'package:bazaar/views/widgets/custom_text_field.dart';
 import 'package:flutter/material.dart';
 
-import 'views/app_pages/cart_page.dart';
-
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await SPHelper.initSP();
-
-  List names = ['ahmed', 'ali', 'sami'];
-  List namesLingth = names.map((e) {
-    return names.length;
-  }).toList();
-
-  int sum(int num2, [int num1 = 0]) {
-    // sum = num1+num2;
-    return num1 + num2;
-  }
-
-  // int x = null;
-  int? o;
-  o = 8;
-  o = null;
-  // print(o!);
-
-  // int i = sum();
-
-  Student std1 = Student('ahmed', 20, true);
-  std1.age = 21;
-  std1.name = 'ahmed';
-  std1.isMale = true;
-
-  std1.studentName();
-
-  Student.ABC('ali', 27);
 
   runApp(MaterialApp(home: Splash()));
 }

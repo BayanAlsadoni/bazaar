@@ -95,10 +95,3 @@ class ProfileWidget extends StatelessWidget {
     );
   }
 }
-
-
-
-
-
-// getClip
-

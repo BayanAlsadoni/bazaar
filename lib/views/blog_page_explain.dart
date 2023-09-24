@@ -24,12 +24,8 @@ class BlogPageExplain extends StatelessWidget {
             ),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              // crossAxisAlignment: CrossAxisAlignment.stretch,
               textDirection: TextDirection.rtl,
               children: [
-                // SizedBox(
-                //   height: 20,
-                // ),
                 Text(
                   'المدونة',
                   style: TextStyle(color: Colors.white),
@@ -67,7 +63,6 @@ class BlogPageExplain extends StatelessWidget {
                       ],
                     ),
                     Row(
-                      // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       textDirection: TextDirection.rtl,
                       children: [
                         SvgPicture.asset(

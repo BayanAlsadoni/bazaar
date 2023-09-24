@@ -19,17 +19,10 @@ class SearchWidget extends StatelessWidget {
       child: TextField(
         textAlign: TextAlign.right,
         decoration: const InputDecoration(
-            // contentPadding: EdgeInsets.symmetric(vertical: -100),
-            // contentPadding: EdgeInsets.all(-5),
             hintText: "بحث",
-            // hintStyle: TextStyle(height: 1),
             border: InputBorder.none,
-
-            // border: OutlineInputBorder(),
             suffixIcon: Icon(Icons.search)),
-        // controller: _controller,
         onSubmitted: (String value) {
-          // debugPrint(value);
         },
       ),
     );

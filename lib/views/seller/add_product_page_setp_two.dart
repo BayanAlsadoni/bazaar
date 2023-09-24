@@ -85,16 +85,11 @@ class _AddProductPageStepTwoState extends State<AddProductPageStepTwo> {
                       },
                       child: DottedBorder(
                         color: Colors.black,
-                        // gap: 3,
-                        // borderPadding: EdgeInsets.all(15),
                         padding: EdgeInsets.all(5),
-                        // strokeCap: StrokeCap.butt,
                         borderType: BorderType.RRect,
-                        // radius: Radius.circular(80),
                         dashPattern: [7, 3],
                         strokeWidth: 1,
                         child: Container(
-                          // margin: EdgeInsets.symmetric(vertical: 10),
                           width: 300,
                           height: 100,
                           child: Column(

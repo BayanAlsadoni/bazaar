@@ -41,8 +41,6 @@ class _WelcomPageState extends State<WelcomPage> {
               effect: const WormEffect(
                 dotHeight: 10,
                 dotWidth: 10,
-                // type: WormType.underground,
-                // activeDotColor: Color.fromARGB(249, 151, 25, 29)),
                 activeDotColor: Colors.black,
               )),
           if (currentIndex != 2)
@@ -76,13 +74,8 @@ class _WelcomPageState extends State<WelcomPage> {
                       backgroundColor: MaterialStateColor.resolveWith(
                           (states) => CustomColors.redColor))),
             ),
-
-          // SizedBox(
-          //   height: 20,
-          // ),
           Expanded(
               child: Container(
-            // height: double.infinity,
             alignment: Alignment.bottomCenter,
             child: TextButton(
                 onPressed: () {

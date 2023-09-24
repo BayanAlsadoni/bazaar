@@ -31,11 +31,7 @@ class SelectUserType extends StatelessWidget {
                 width: 200,
               ),
             ),
-            // SizedBox(
-            //   height: 50,
-            // ),
-            // SvgPicture.asset("assets/images/test.svg",
-            //     semanticsLabel: 'Acme Logo'),
+
             Container(
               padding: EdgeInsets.all(30),
               child: Text(
@@ -52,9 +48,7 @@ class SelectUserType extends StatelessWidget {
               children: [
                 Column(
                   children: [
-                    // ClipRRect(
-                    // child: Image.asset(""),
-                    // child:
+
                     InkWell(
                       onTap: () {
                         SPHelper.createNewItem('seller', 'choos seller');
@@ -73,19 +67,10 @@ class SelectUserType extends StatelessWidget {
                             color: Colors.white,
                             // color: Colors.teal,
                             borderRadius: BorderRadius.circular(20),
-                            // borderRadius: BorderRadius.only(
-                            //     topLeft: Radius.circular(10),
-                            //     topRight: Radius.circular(10),
-                            //     bottomLeft: Radius.circular(10),
-                            //     bottomRight: Radius.circular(10)),
                             boxShadow: [
                               BoxShadow(
                                 color: Colors.grey.withOpacity(0.5),
-                                // spreadRadius: 5,
-                                // color: Colors.red,
-                                // blurRadius: 100,
-                                // offset: Offset(4, 8), // Shadow position
-                                //  spreadRadius: 5,
+
                                 blurRadius: 7,
                                 offset: Offset(0, 3), // Shadow position
                               )
@@ -108,9 +93,7 @@ class SelectUserType extends StatelessWidget {
                 ),
                 Column(
                   children: [
-                    // ClipRRect(
-                    // child: Image.asset("name"),
-                    // child:
+
                     InkWell(
                       onTap: () {
                         UserType.isSeller = false;
@@ -149,8 +132,7 @@ class SelectUserType extends StatelessWidget {
                 )
               ],
             ),
-            // SvgPicture.asset("assets/images/sky_background.svg",
-            //     semanticsLabel: 'Acme Logo'),
+
             Expanded(
               child: SvgPicture.asset("assets/images/select_background.svg",
                   semanticsLabel: 'Acme Logo'),

@@ -44,43 +44,14 @@ class _HomeState extends State<Home> {
           currentIndex: index,
           onTap: (value) {
             index = value;
-            // // pageController.animateToPage(index,
-            // //     duration: Duration(milliseconds: 10),
-            // //     curve: Curves.bounceInOut);
             pageController.jumpToPage(index);
             setState(() {});
           },
           items: [
-            // BottomNavigationBarItem(
-            //     icon: Icon(
-            //       Icons.home_outlined,
-            //       // color: Colors.black,
-            //     ),
-            //     label: "home"),
-            // BottomNavigationBarItem(
-            //     icon: Icon(
-            //       Icons.shopping_cart_outlined,
-            //       // color: Colors.black,
-            //     ),
-            //     label: "home"),
-            // BottomNavigationBarItem(
-            //     icon: Icon(
-            //       Icons.store_mall_directory_outlined,
-            //       // color: Colors.black,
-            //     ),
-            //     label: "home"),
-            // BottomNavigationBarItem(
-            //     icon: Icon(
-            //       Icons.favorite_border,
-            //       // color: Colors.black,
-            //     ),
-            // label: "home"),
             BottomNavigationBarItem(
                 activeIcon: SvgPicture.asset('assets/images/home_icon.svg'),
-                // icon: SvgPicture.asset('assets/images/home_icon.svg'),
                 icon:
                     SvgPicture.asset('assets/images/unselected_home_icon.svg'),
-                // Icon(Icons.home_outlined),
                 label: "home"),
 
             BottomNavigationBarItem(

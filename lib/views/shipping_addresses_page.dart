@@ -27,9 +27,6 @@ class _ShippingAddressesPageState extends State<ShippingAddressesPage> {
         textDirection: TextDirection.rtl,
         children: [
           RadioListTile(
-
-              // contentPadding: ,
-              // subtitle: Text('055553333'),
               title: Container(
                 padding: EdgeInsets.all(20),
                 decoration: BoxDecoration(
@@ -65,7 +62,6 @@ class _ShippingAddressesPageState extends State<ShippingAddressesPage> {
                           'الاسم',
                           style: TextStyle(
                               fontSize: 18, fontWeight: FontWeight.bold),
-                          // textAlign: TextAlign.right,
                         ),
                         Text(
                           '0564842365',
@@ -87,8 +83,6 @@ class _ShippingAddressesPageState extends State<ShippingAddressesPage> {
                   ],
                 ),
               ),
-              // tileColor: ,
-              // secondary: Icon(Icons.edit),
               groupValue: ischecked,
               activeColor: CustomColors.redColor,
               selectedTileColor: CustomColors.redColor,
@@ -96,13 +90,9 @@ class _ShippingAddressesPageState extends State<ShippingAddressesPage> {
               onChanged: (v) {
                 ischecked = v ?? ischecked;
                 setState(() {});
-                // ischecked =v;
               }),
           SizedBox(height: 15),
           RadioListTile(
-
-              // contentPadding: ,
-              // subtitle: Text('055553333'),
               title: Container(
                 padding: EdgeInsets.all(20),
                 decoration: BoxDecoration(
@@ -138,7 +128,6 @@ class _ShippingAddressesPageState extends State<ShippingAddressesPage> {
                           'الاسم',
                           style: TextStyle(
                               fontSize: 18, fontWeight: FontWeight.bold),
-                          // textAlign: TextAlign.right,
                         ),
                         Text(
                           '0564842365',
@@ -160,14 +149,11 @@ class _ShippingAddressesPageState extends State<ShippingAddressesPage> {
                   ],
                 ),
               ),
-              // tileColor: ,
-              // secondary: Icon(Icons.edit),
               groupValue: ischecked,
               activeColor: CustomColors.redColor,
               selectedTileColor: CustomColors.redColor,
               value: 'address1',
               onChanged: (v) {
-                // ischecked =v;
               }),
           SizedBox(height: 30),
           Container(

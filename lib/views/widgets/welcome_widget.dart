@@ -13,12 +13,9 @@ class WelcomeWidget extends StatelessWidget {
             imagePath,
             fit: BoxFit.fill,
             height: MediaQuery.of(context).size.height / 2,
-            // width: 200,
             width: MediaQuery.of(context).size.width,
           ),
-          // SizedBox(
-          //   height: 20,
-          // ),
+
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20),
             child: Text(
@@ -30,9 +27,6 @@ class WelcomeWidget extends StatelessWidget {
               ),
             ),
           ),
-          // SizedBox(
-          //   height: 20,
-          // ),
           Padding(
             padding: const EdgeInsets.all(15),
             child: Text(
@@ -40,9 +34,6 @@ class WelcomeWidget extends StatelessWidget {
               "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
             ),
           ),
-          // SizedBox(
-          //   height: 20,
-          // ),
         ],
       ),
     );

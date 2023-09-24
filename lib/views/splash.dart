@@ -53,13 +53,6 @@ class _SplashState extends State<Splash> {
         Container(
           // height: 350.0,
           decoration: BoxDecoration(
-              // image: DecorationImage(
-              //     // fit: BoxFit.fitWidth,
-
-              //     image: AssetImage(
-              //       'assets/images/LogoWhait.png',
-              //     ),
-              //     alignment: Alignment.center),
               color: CustomColors.redColor,
               gradient: LinearGradient(
                   begin: FractionalOffset.topCenter,
@@ -85,37 +78,6 @@ class _SplashState extends State<Splash> {
         )
       ]),
 
-      //  Container(
-      //   decoration: BoxDecoration(
-      //     color: Colors.transparent,
-      //     image: DecorationImage(
-      //       fit: BoxFit.cover,
-      //       image: AssetImage(
-      //         'assets/images/traditional_woman_image.png',
-      //       ),
-      //     ),
-      //   ),
-      //   // height: 350.0,
-      // ),
-
-      // Container(
-      //   height: MediaQuery.of(context).size.height,
-      //   width: MediaQuery.of(context).size.width,
-      //   // color: CustomColors.redColor,
-      //   decoration: BoxDecoration(
-      //       color: CustomColors.redColor,
-      //       image: DecorationImage(
-      //           image:
-      //               AssetImage("assets/images/traditional_woman_image.png"))),
-      //   // child: Image.asset(
-      //   //   "assets/images/traditional_woman_image.png",
-      //   //   // height: MediaQuery.of(context).size.height,
-      //   //   // alignment: Alignment.ci==,
-      //   //   fit: BoxFit.cover,
-      //   //   // colorBlendMode: BlendMode.hardLight,
-      //   //   // color: CustomColors.redColor
-      //   // ),
-      // ),
-    );
+   );
   }
 }

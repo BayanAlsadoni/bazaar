@@ -23,7 +23,6 @@ class CategoryWidget extends StatelessWidget {
             image: DecorationImage(
               // fit: BoxFit.fill,
               image: AssetImage(
-                  // 'images/bg.jpg',
                   image),
             ),
           ),
@@ -43,8 +42,6 @@ class CategoryWidget extends StatelessWidget {
                     colors: [
                       CustomColors.redColor.withOpacity(0.0),
                       CustomColors.redColor,
-                      // Colors.grey.withOpacity(0.0),
-                      // Colors.black,
                     ],
                     stops: [
                       0.6,

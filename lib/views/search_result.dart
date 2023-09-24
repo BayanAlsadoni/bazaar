@@ -12,7 +12,6 @@ class SearchResultPage extends StatelessWidget {
         Container(
             margin: EdgeInsets.only(left: 10),
             child: SvgPicture.asset('assets/images/filter.svg')),
-        // Expanded(child: TextField(decoration: InputDecoration(hintText: 'fpe')))
         Expanded(
           child: Container(
             margin: EdgeInsets.all(10),
@@ -23,11 +22,8 @@ class SearchResultPage extends StatelessWidget {
             child: TextField(
               textAlign: TextAlign.right,
               decoration: InputDecoration(
-
-                  //     // isCollapsed: true,
                   contentPadding: EdgeInsets.only(right: 15),
                   hintText: 'بحث',
-                  // hintStyle: TextStyle(height: 1),
                   border: InputBorder.none),
             ),
           ),

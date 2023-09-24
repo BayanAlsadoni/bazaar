@@ -28,38 +28,6 @@ class FavoritPage extends StatelessWidget {
               )
             ],
           ),
-          // ListView(
-          //   physics: NeverScrollableScrollPhysics(),
-          //   shrinkWrap: true,
-          //   children: [
-          //     Row(
-          //       mainAxisAlignment: MainAxisAlignment.center,
-          //       children: [
-          //         SpecialProductWidget(
-          //             3, 55, 'assets/images/specialProduct1.png'),
-          //         SpecialProductWidget(
-          //             3, 55, 'assets/images/specialProduct1.png'),
-          //       ],
-          //     ),
-          //     Row(
-          //       children: [
-          //         SpecialProductWidget(
-          //             3, 55, 'assets/images/specialProduct1.png'),
-          //         SpecialProductWidget(
-          //             3, 55, 'assets/images/specialProduct1.png'),
-          //       ],
-          //     ),
-          //     Row(
-          //       children: [
-          //         SpecialProductWidget(
-          //             3, 55, 'assets/images/specialProduct1.png'),
-          //         SpecialProductWidget(
-          //             3, 55, 'assets/images/specialProduct1.png'),
-          //       ],
-          //     )
-          //   ],
-          // )
-
           GridView(
             padding: EdgeInsets.all(10),
             children: [

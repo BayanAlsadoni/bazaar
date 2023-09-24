@@ -16,9 +16,7 @@ class _CartWidgetState extends State<CartWidget> {
           margin: EdgeInsets.all(10),
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(10),
-              // color: Colors.grey.withOpacity(0.5),
               color: Colors.white,
-              // color: Colors.grey.withOpacity(0.5),
               boxShadow: [
                 BoxShadow(
                   color: Colors.grey.withOpacity(0.5),
@@ -51,18 +49,12 @@ class _CartWidgetState extends State<CartWidget> {
                   Text('أحمر XL')
                 ]),
                 Row(
-                    // mainAxisAlignment: MainAxisAlignment.end,
-                    // crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
+                  children: [
                       Icon(Icons.add),
                       Text('2  '),
                       SvgPicture.asset('assets/images/subtract_icon.svg',
                           colorFilter:
                               ColorFilter.mode(Colors.black, BlendMode.src)),
-                      // SvgPicture.asset(
-                      //   'assts/images/subtract_icon.svg',
-                      //   colorFilter: ColorFilter.mode(Colors.black, BlendMode.srcIn),
-                      // )
                     ])
               ])),
       onDismissed: (direction) {
@@ -84,7 +76,6 @@ class _CartWidgetState extends State<CartWidget> {
                 ],
               );
             });
-        // setState(() {});
       },
     );
   }
